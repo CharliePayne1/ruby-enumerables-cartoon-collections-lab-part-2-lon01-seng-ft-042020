@@ -6,6 +6,6 @@ end
 
 def summon_captain_planet(array)
   array.map do |elements|
-    "#{elements.capatalize}!"
+    "#{elements.capitalize}!"
   end
 end
