@@ -22,4 +22,9 @@ end
 
 def find_valid_calls(array)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  array.find
+  array.find do |element|
+    if element == valid_calls
+    element
+  end
+end
+end
