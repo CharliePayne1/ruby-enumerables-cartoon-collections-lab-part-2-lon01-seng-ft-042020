@@ -19,3 +19,6 @@ def long_planeteer_calls(array)
 end
 answer
 end
+
+def find_valid_calls(array)
+  
