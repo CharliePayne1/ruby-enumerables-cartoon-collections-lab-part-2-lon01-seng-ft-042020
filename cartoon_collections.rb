@@ -21,4 +21,5 @@ answer
 end
 
 def find_valid_calls(array)
-  
+  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  array.find
