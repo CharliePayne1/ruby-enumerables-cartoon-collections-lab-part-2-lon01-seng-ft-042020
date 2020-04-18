@@ -23,6 +23,6 @@ end
 def find_valid_calls(array)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   array.find do |same|
-    
+    valid_calls.include?(same)
   end
 end
